@@ -9,3 +9,7 @@ When you find some issues, please let me know.
 ```sh
 carthage update --platform ios
 ```
+
+## Presentation
+
+https://speakerdeck.com/d_date/integrate-your-app-to-modern-world
