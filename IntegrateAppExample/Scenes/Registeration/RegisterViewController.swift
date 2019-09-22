@@ -83,7 +83,7 @@ final class RegisterViewController: UIViewController, KeyboardObservable {
         })
 
 //            contentViewController.isValidateForms
-        contentViewController.rootView.isValidateForms
+        contentViewController.isValidateForms
             .drive(onNext: { [weak self] in
                 guard let self = self else { return }
                 self.confirmViewController.set(isValid: $0)
